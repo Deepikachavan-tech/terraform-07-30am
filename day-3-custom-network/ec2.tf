@@ -7,6 +7,6 @@ resource "aws_instance" "dev" {
     security_groups = [ aws_security_group.dev.id ]
  
     tags = {
-      Name = "dev_ec2"
+      Name = "dev_ec3"
     }
 }
